@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>twilsoft - coming soon!</title>
+    <style>
+      @font-face {
+        font-family: "virgil";
+        src: url("./font.woff2");
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+    <style>
+      :root {
+        --bg: #f3fbf2;
+        --fg: #fefff2;
+        --green: #daf3d5;
+        --brown: #402800;
+        font-family: "virgil";
+      }
+
+      body {
+        background-color: var(--bg);
+        opacity: 1;
+        background-image: linear-gradient(#daf3d5 3px, transparent 3px),
+          linear-gradient(90deg, #daf3d5 3px, transparent 3px),
+          linear-gradient(#daf3d5 1.5px, transparent 1.5px),
+          linear-gradient(90deg, #daf3d5 1.5px, #f3fbf2 1.5px);
+        background-size:
+          75px 75px,
+          75px 75px,
+          15px 15px,
+          15px 15px;
+        background-position:
+          -3px -3px,
+          -3px -3px,
+          -1.5px -1.5px,
+          -1.5px -1.5px;
+        margin: 0;
+
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 24px;
+        color: var(--brown);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container p {
+        margin-top: 0;
+        text-align: center;
+      }
+
+      .container p .big {
+        font-size: 48px;
+      }
+
+      .container h1 {
+        line-height: 0;
+        margin: 0;
+      }
+
+      .container #logo {
+        max-width: 100%;
+        width: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><img id="logo" src="./logo.svg" alt="twilsoft!" /></h1>
+      <p>
+        <span class="big">code wizards</span><br />
+        (& Software Engineers)
+        <br /><br />
+        Our magicians are working hard to get our new site launched.</br></br>
+        In the meantime, reach out to us at
+        <a href="mailto:hey@twilsoft.uk">hey@twilsoft.uk</a> or find us on <a href="github.com/twilsoft">Github</a>
+      </p>
+    </div>
+  </body>
+</html>
